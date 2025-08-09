@@ -1,6 +1,6 @@
 import React from 'react';
 import { useProfileStore } from '../state/profileStore';
-import { seedQuestions } from '../data/seedQuestions';
+import { seedQuestions } from '../../seedQuestions_wiskunde_gr4_af';
 import { enhancedQuestions } from '../data/enhancedQuestions_gr4_af';
 import { gradeAnswer } from '../logic/grading';
 import { enhancedGradeAnswer } from '../utils/fuzzyMatching';
